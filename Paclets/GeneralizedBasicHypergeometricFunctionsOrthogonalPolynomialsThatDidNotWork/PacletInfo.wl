@@ -9,14 +9,12 @@ PacletObject[
     "WolframVersion" -> "13.3+",
     "PublisherID" -> "PeterBurbery",
     "License" -> "BSD-3-Clause",
-    "PrimaryContext" -> "PeterBurbery`GeneralizedBasicHypergeometricFunctionsOrthogonalPolynomials`",
+    "PrimaryContext" ->  "PeterBurbery`GeneralizedBasicHypergeometricFunctionsOrthogonalPolynomials`",
     "Extensions" -> {
       {
         "Kernel",
         "Root" -> "Kernel",
-        "Context" -> {
-          "PeterBurbery`GeneralizedBasicHypergeometricFunctionsOrthogonalPolynomials`"
-        }
+        "Context" -> { "PeterBurbery`GeneralizedBasicHypergeometricFunctionsOrthogonalPolynomials`"}
       },
       {
         "Documentation",

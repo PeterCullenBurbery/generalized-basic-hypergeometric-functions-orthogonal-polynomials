@@ -1,5 +1,3 @@
-(* ::Package:: *)
-
 PacletObject[
   <|
     "Name" -> "PeterBurbery/GeneralizedBasicHypergeometricFunctionsOrthogonalPolynomials",
@@ -8,7 +6,7 @@ PacletObject[
     "Version" -> "1.0.0",
     "WolframVersion" -> "13.3+",
     "PublisherID" -> "PeterBurbery",
-    "License" -> "BSD-3-Clause",
+    "License" -> "MIT",
     "PrimaryContext" -> "PeterBurbery`GeneralizedBasicHypergeometricFunctionsOrthogonalPolynomials`",
     "Extensions" -> {
       {

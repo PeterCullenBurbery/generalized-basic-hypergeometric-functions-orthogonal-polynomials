@@ -1,5 +1,3 @@
-(* ::Package:: *)
-
 PacletObject[
   <|
     "Name" -> "PeterBurbery/GeneralizedBasicHypergeometricFunctionsOrthogonalPolynomials",
