@@ -22,7 +22,13 @@ Begin["`Private`"];
 
 (*Define your public and private symbols here:*)
 
-VeryWellPoisedBasicHypergeometricSeries//ClearAll;
+VeryWellPoisedBasicHypergeometricSeries // ClearAll;
+
+VeryWellPoisedBasicHypergeometricSeries[a_, b_, numeratorparameters__,
+     base_, argument_] :=
+    QHypergeometricPFQ[{b, base Sqrt[a], -base Sqrt[a], a, numeratorparameters
+        }, Join[{Sqrt[a], -Sqrt[a]}, Table[base a / argument, {argument, Join[
+        {b}, {numeratorparameters}]}]], base, argument]
 
 (* ::Section::Closed:: *)
 
