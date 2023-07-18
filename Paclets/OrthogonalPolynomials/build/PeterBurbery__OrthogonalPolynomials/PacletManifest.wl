@@ -11,7 +11,7 @@
             ,
             "Hash"
             ->
-            "8ebae21856c717d757535a9ebfd3cd659fdf210e4de85af6c8dc23a1d0105aed"
+            "740b041aff23940f9b05e414742047dc87b1917729910e9dd1f9e7f3b525fdd5"
                 
         |>
         ,
@@ -24,7 +24,7 @@
             ,
             "Hash"
             ->
-            "ea3c37344edf3695a30b3d97a9b0831cc0f96b238e2b1fc69b2fe864b29f5261"
+            "c41ae771db35d2358af587b33f1931b68bf3d2db57bf74ade7c777290feaab71"
                 
         |>
         ,
@@ -37,7 +37,7 @@
             ,
             "Hash"
             ->
-            "1af7c4bac50fc4a9826ed342ceda07edcd9e0d2284bbd1b4d25c2d5a6dd41e29"
+            "42ca906b94c1e8cfe4698793a835bb01996c0f8684f4a0c17ffe7c0adb60801d"
                 
         |>
         ,
@@ -50,7 +50,7 @@
             ,
             "Hash"
             ->
-            "cd91934174fa93d3b0f91f04dfc7ad2e00cc1cd472b54a37c49bde528e32f467"
+            "5605e505537a83bec2897f8fb2e4f31d82f2be6677d27d035fa62b31f5fb9a81"
                 
         |>
         ,
@@ -63,7 +63,7 @@
             ,
             "Hash"
             ->
-            "5d31268e954c06234a030eebd2f5133f410a3041376d5db952ca43bb15592f5b"
+            "02b96aab28642b46407baa1acbbe662a403caa5607c410a77b454c7ee49f22fa"
                 
         |>
         ,
@@ -76,7 +76,7 @@
             ,
             "Hash"
             ->
-            "e8fda1abd026db0bea732fb575b52eb089f423d0ed1e2448a712e6b35ef5aa66"
+            "13b2cb873cfc2a7a83c7a792731aee0ad2193ce5703cab153f30953d0f266665"
                 
         |>
         ,
@@ -89,7 +89,7 @@
             ,
             "Hash"
             ->
-            "700c9ccb6900e2103f47db6d7bc07a5337510bb05b1b7b3454d07ad42ccf1c83"
+            "28d74a6e344f0a23a45cc1386e8f0ee3590cf5c9700ed2eeaaa78b99935d3e39"
                 
         |>
         ,
@@ -102,7 +102,7 @@
             ,
             "Hash"
             ->
-            "05dd847b93662b838c2c4d270abac686de1ed43d5dc4dfcebc45ac916c1d37aa"
+            "2ba2f8539651b41f0621886806af1063a16b7d8b74c0c5cfec88eb99c81f71dc"
                 
         |>
         ,
@@ -115,7 +115,7 @@
             ,
             "Hash"
             ->
-            "2a94a70085b7ab4377413c447a6cde2f7c62d8c5be375ad9c76991c2f5d8a63a"
+            "fbec481234f8208551375871e94deb328713521c095c9343a53b86b6664ff0d2"
                 
         |>
         ,
@@ -128,7 +128,7 @@
             ,
             "Hash"
             ->
-            "8f14fedf222c8299311dc9d4006e14b557190ef5f2de20168247424b79836924"
+            "e952d2481b7c6d587028eff11c7d65ea9594ffb3d353d47d42966a8c2ebc565c"
                 
         |>
         ,
@@ -141,7 +141,7 @@
             ,
             "Hash"
             ->
-            "8ac99d62a9a70aa9f9df5e58ee36eb498ea468365692dfe6b3d46867998c5ee8"
+            "3b61b3ea79de7c484f19dcd09ed468a6e420273cf96be74874ab2e5d8666a517"
                 
         |>
         ,
@@ -154,7 +154,7 @@
             ,
             "Hash"
             ->
-            "d6cfd793a1e3d0b4d8f2c1823f144a6df81fbaaa6bcebb0395bf34ab50e8e04c"
+            "96ba949842178b60f854935e5384ea39e3d59d8bf660b452150f159ba63e4994"
                 
         |>
         ,
@@ -180,7 +180,7 @@
             ,
             "Hash"
             ->
-            "15068dabecf4ed4f09f8e060144c05e85396fd92c91e51b882a595819e828cf8"
+            "d3dde7f5b2ccfca6a8a69cc8726bb15d47b19ad913e40a20ed29e6e1bdf21b1a"
                 
         |>
         ,
@@ -193,7 +193,7 @@
             ,
             "Hash"
             ->
-            "41a61375e6917fad33d46417c010c75cff770ac08286f8cae0ee88e3288883eb"
+            "10f0835867ca78e025e1e5ccac33677667517856e273ae4d0e574702f3efefed"
                 
         |>
         ,
@@ -206,7 +206,7 @@
             ,
             "Hash"
             ->
-            "4e7c6c55450b94cf122dc1d2b1b1a0b31b50c84c8a03367558ed14c11bf6bad2"
+            "31e15b91cf50efcae25728725d6fa7acd2c14209ce4325473da10f7c9067f46a"
                 
         |>
         ,
@@ -219,7 +219,21 @@
             ,
             "Hash"
             ->
-            "f6c1eb0d8c13fcfcd5305504dd66544703248ba0dc95cfd2aae721b9d8901ae0"
+            "755c263b3eb077ed0b298aad60340a715c364b7a98b372de0d70b75a987910ee"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\Tutorials\\OrthogonalPolynomials.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "a0fe4debd51f13e71c0f230ca398b18276ee7efe6451865b0a130e6d47bd3c19"
                 
         |>
     }

@@ -22,7 +22,11 @@ Begin["`Private`"];
 
 (*Define your public and private symbols here:*)
 
-ContinuousQHermitePolynomial//ClearAll;
+ContinuousQHermitePolynomial // ClearAll;
+
+ContinuousQHermitePolynomial[n_, z_, q_] :=
+    FunctionExpand[z^n QHypergeometricPFQ[{q ^ (-n), 0}, {}, q, q^n /
+         z^2]];
 
 (* ::Section::Closed:: *)
 

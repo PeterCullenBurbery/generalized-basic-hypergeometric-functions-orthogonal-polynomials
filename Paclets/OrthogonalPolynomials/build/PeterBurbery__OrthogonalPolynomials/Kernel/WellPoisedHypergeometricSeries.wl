@@ -24,6 +24,12 @@ Begin["`Private`"];
 
 WellPoisedHypergeometricSeries // ClearAll;
 
+WellPoisedHypergeometricSeries[a_, b_, numeratorparameters__, base_, 
+    argument_] :=
+    QHypergeometricPFQ[Join[{b}, {a}, {numeratorparameters}], Table[base
+         * a / argument, {argument, Join[{b}, {numeratorparameters}]}], base,
+         argument]
+
 (* ::Section::Closed:: *)
 
 (*Package Footer*)
