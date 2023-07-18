@@ -1,36 +1,31 @@
-(* ::Package:: *)
+<<PeterBurbery`OrthogonalPolynomials`AlSalamChiharaPolynomial`;
 
-(* ::Section:: *)
-(*Package Header*)
+<<PeterBurbery`OrthogonalPolynomials`AlSalamChiharaQInversePolynomial`;
 
+<<PeterBurbery`OrthogonalPolynomials`AskeyWilsonPolynomial`;
 
-BeginPackage["PeterBurbery`OrthogonalPolynomials`"];
+<<PeterBurbery`OrthogonalPolynomials`ContinuousBigQHermitePolynomial`;
 
+<<PeterBurbery`OrthogonalPolynomials`ContinuousBigQInverseHermitePolynomial`;
 
-(* ::Text:: *)
-(*Declare your public symbols here:*)
+<<PeterBurbery`OrthogonalPolynomials`ContinuousDualQHahnPolynomial`;
 
+<<PeterBurbery`OrthogonalPolynomials`ContinuousDualQInverseHahnPolynomial`;
 
-SayHello;
+<<PeterBurbery`OrthogonalPolynomials`ContinuousQHermitePolynomial`;
 
+<<PeterBurbery`OrthogonalPolynomials`ContinuousQInverseHermitePolynomial;
 
-Begin["`Private`"];
+<<PeterBurbery`OrthogonalPolynomials`ContinuousQJacobiPolynomial`;
 
+<<PeterBurbery`OrthogonalPolynomials`ContinuousUltrasphericalPolynomial`;
 
-(* ::Section:: *)
-(*Definitions*)
+<<PeterBurbery`OrthogonalPolynomials`ModifiedThetaFunction`;
 
+<<PeterBurbery`OrthogonalPolynomials`QShiftedFactorialFinite`;
 
-(* ::Text:: *)
-(*Define your public and private symbols here:*)
+<<PeterBurbery`OrthogonalPolynomials`QShiftedFactorialInfinite`;
 
+<<PeterBurbery`OrthogonalPolynomials`VeryWellPoisedBasicHypergeometricSeries`;
 
-SayHello[name_? StringQ] := "Hello " <> name <> "!";
-
-
-(* ::Section::Closed:: *)
-(*Package Footer*)
-
-
-End[];
-EndPackage[];
+<<PeterBurbery`OrthogonalPolynomials`WellPoisedHypergeometricSeries`;
