@@ -10,7 +10,7 @@ BeginPackage["PeterBurbery`OrthogonalPolynomials`"];
 
 (*Declare your public symbols here:*)
 
-PeterBurbery`OrthogonalPolynomials`VeryWellPoisedBasicHypergeometricSeries;
+PeterBurbery`OrthogonalPolynomials`ContinuousQInverseHermitePolynomial;
 
 Begin["`Private`"];
 

@@ -11,7 +11,7 @@ BeginPackage["PeterBurbery`OrthogonalPolynomials`"];
 (*Declare your public symbols here:*)
 
 
-AlSalamChiharaPolynomial;
+PeterBurbery`OrthogonalPolynomials`AlSalamChiharaPolynomial;
 
 
 Begin["`Private`"];
