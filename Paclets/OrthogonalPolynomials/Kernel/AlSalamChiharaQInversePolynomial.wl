@@ -25,7 +25,7 @@ Begin["`Private`"];
 (*Define your public and private symbols here:*)
 
 
-SayHello[name_? StringQ] := "Hello " <> name <> "!";
+AlSalamChiharaQInversePolynomial//Clear
 
 
 (* ::Section::Closed:: *)
