@@ -10,7 +10,7 @@ BeginPackage["PeterBurbery`OrthogonalPolynomials`"];
 
 (*Declare your public symbols here:*)
 
-PeterBurbery`OrthogonalPolynomials`QShiftFactorialInfinite;
+PeterBurbery`OrthogonalPolynomials`QShiftedFactorialInfinite;
 
 Begin["`Private`"];
 
@@ -22,9 +22,9 @@ Begin["`Private`"];
 
 (*Define your public and private symbols here:*)
 
-QShiftFactorialInfinite // ClearAll;
+QShiftedFactorialInfinite // ClearAll;
 
-QShiftFactorialInfinite[a_, q_] :=
+QShiftedFactorialInfinite[a_, q_] :=
     Product[QPochhammer[Part[a, i], q], {i, 1, Length[a]}];
 
 (* ::Section::Closed:: *)

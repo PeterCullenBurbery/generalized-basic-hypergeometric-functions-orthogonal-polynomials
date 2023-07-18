@@ -1012,205 +1012,55 @@ Cell["Basic Examples", "Subsection",
  TaggingRules->{},
  CellID->462042388,ExpressionUUID->"bbe8cd69-1909-44cc-8b86-59dfef0a56de"],
 
-Cell["Show a few simple examples of common uses of the paclet:", "Text",
+Cell["Compute a q shifted finite factorial:", "Text",
  TaggingRules->{},
+ CellChangeTimes->{{3.8987041762517734`*^9, 3.898704184941146*^9}},
  CellTags->"DefaultContent",
  CellID->319073343,ExpressionUUID->"6be3d165-7d1b-40fa-9dd7-de6f02078652"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
- TagBox[
-  RowBox[{"MyFunction", "[", 
-   RowBox[{"a", ",", "b", ",", "c"}], "]"}],
-  #& ,
-  TaggingRules -> {"DefaultContentBoxes" -> True},
-  AutoDelete->True]], "Input",
+ RowBox[{"QShiftedFactorialFinite", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"p", ",", "q", ",", "r"}], "}"}], ",", "2", ",", "3"}], 
+  "]"}]], "Input",
  TaggingRules->{},
+ CellChangeTimes->{{3.898704187510559*^9, 3.898704209801387*^9}},
  CellTags->"DefaultContent",
- CellLabel->"In[1]:=",
+ CellLabel->"In[95]:=",
  CellID->593829399,ExpressionUUID->"2f010d94-05bd-4ee8-93ee-e366f0b4ef20"],
 
 Cell[BoxData[
- TagBox[
-  FractionBox[
-   SuperscriptBox["a", "2"], 
-   RowBox[{"b", "+", "c"}]],
-  #& ,
-  TaggingRules -> {"DefaultContentBoxes" -> True},
-  AutoDelete->True]], "Output",
+ RowBox[{
+  RowBox[{"QPochhammer", "[", 
+   RowBox[{"p", ",", "2", ",", "3"}], "]"}], " ", 
+  RowBox[{"QPochhammer", "[", 
+   RowBox[{"q", ",", "2", ",", "3"}], "]"}], " ", 
+  RowBox[{"QPochhammer", "[", 
+   RowBox[{"r", ",", "2", ",", "3"}], "]"}]}]], "Output",
  TaggingRules->{},
+ CellChangeTimes->{{3.8987041941897745`*^9, 3.8987042101734285`*^9}},
  CellTags->"DefaultContent",
- CellLabel->"Out[1]=",
- CellID->197444189,ExpressionUUID->"e0e010e1-e25f-45f3-8000-109944503085"]
+ CellLabel->"Out[95]=",
+ CellID->208651553,ExpressionUUID->"2b4e6e19-034d-482a-9c00-d1a698ddc793"]
 }, Open  ]],
 
-Cell[CellGroupData[{
-
-Cell[BoxData["func"], "Input",
- TaggingRules->{},
- CellChangeTimes->{{3.898682434097362*^9, 3.8986824381480713`*^9}},
- CellLabel->"In[12]:=",
- CellID->17908572,ExpressionUUID->"82289011-d9ab-42ca-b6a5-964a01be8683"],
-
-Cell[BoxData["func"], "Output",
- TaggingRules->{},
- CellChangeTimes->{3.898682438526072*^9},
- CellLabel->"Out[12]=",
- CellID->65960585,ExpressionUUID->"f38bc2b5-3ab3-47cd-b7f3-1ac6b4f89e30"]
-}, Open  ]],
-
-Cell[CellGroupData[{
+Cell["Compute a q shifted infinite factorial:", "Text",
+ CellChangeTimes->{{3.8987042141272635`*^9, 3.898704220961857*^9}},
+ CellID->181129476,ExpressionUUID->"0e58b60a-8ef3-4c0d-9277-2c73e9d57705"],
 
 Cell[BoxData[
- RowBox[{"AlSalamChiharaPolynomial", "[", 
-  RowBox[{"1", ",", "2", ",", "3", ",", "4", ",", "5"}], "]"}]], "Input",
- CellChangeTimes->{{3.898682479965475*^9, 3.898682490259698*^9}},
- CellLabel->"In[56]:=",
- CellID->128385026,ExpressionUUID->"f2ec926b-54d8-4714-8de7-83fb19594471"],
-
-Cell[BoxData[
- RowBox[{"-", 
-  FractionBox["9", "2"]}]], "Output",
- CellChangeTimes->{3.898682490902464*^9, 3.8987033096689405`*^9, 
-  3.8987034700191174`*^9},
- CellLabel->"Out[56]=",
- CellID->4994121,ExpressionUUID->"f81ba2bd-5304-48bf-823f-5122fbc0c4f4"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData["k"], "Input",
- CellChangeTimes->{3.898703497448797*^9},
- CellLabel->"In[57]:=",
- CellID->444541718,ExpressionUUID->"c14559be-11b1-4654-98d5-251650f892f5"],
-
-Cell[BoxData["19904"], "Output",
- CellChangeTimes->{3.898703497861689*^9},
- CellLabel->"Out[57]=",
- CellID->188683781,ExpressionUUID->"1f622f19-235e-49d3-a02d-904deee4eff8"]
-}, Open  ]],
-
-Cell[BoxData[
- RowBox[{"ClearAll", "[", "k", "]"}]], "Input",
- CellChangeTimes->{{3.8987034992018347`*^9, 3.898703500951353*^9}},
- CellLabel->"In[58]:=",
- CellID->436584130,ExpressionUUID->"f4e4f555-4629-4361-839a-ee15fc09b170"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"VeryWellPoisedBasicHypergeometricSeries", "[", 
-  RowBox[{
-  "b", ",", "a", ",", "c", ",", "d", ",", "e", ",", "f", ",", "g", ",", "h", 
-   ",", "i", ",", "j", ",", "k", ",", "l", ",", "q", ",", "z"}], 
-  "]"}]], "Input",
- CellChangeTimes->{{3.8987034834465218`*^9, 3.8987035063933525`*^9}},
- CellLabel->"In[61]:=",
- CellID->608595637,ExpressionUUID->"6c937cbb-d13b-47e0-afc6-a2e1b21e9d01"],
-
-Cell[BoxData[
- RowBox[{"QHypergeometricPFQ", "[", 
+ RowBox[{"QShi", "[", 
   RowBox[{
    RowBox[{"{", 
-    RowBox[{"a", ",", 
-     RowBox[{
-      SqrtBox["b"], " ", "q"}], ",", 
-     RowBox[{
-      RowBox[{"-", 
-       SqrtBox["b"]}], " ", "q"}], ",", "b", ",", "c", ",", "d", ",", "e", 
-     ",", "f", ",", "g", ",", "h", ",", "i", ",", "j", ",", "k", ",", "l"}], 
-    "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     SqrtBox["b"], ",", 
-     RowBox[{"-", 
-      SqrtBox["b"]}], ",", 
-     FractionBox[
-      RowBox[{"b", " ", "q"}], "a"], ",", 
-     FractionBox[
-      RowBox[{"b", " ", "q"}], "c"], ",", 
-     FractionBox[
-      RowBox[{"b", " ", "q"}], "d"], ",", 
-     FractionBox[
-      RowBox[{"b", " ", "q"}], "e"], ",", 
-     FractionBox[
-      RowBox[{"b", " ", "q"}], "f"], ",", 
-     FractionBox[
-      RowBox[{"b", " ", "q"}], "g"], ",", 
-     FractionBox[
-      RowBox[{"b", " ", "q"}], "h"], ",", 
-     FractionBox[
-      RowBox[{"b", " ", "q"}], "i"], ",", 
-     FractionBox[
-      RowBox[{"b", " ", "q"}], "j"], ",", 
-     FractionBox[
-      RowBox[{"b", " ", "q"}], "k"], ",", 
-     FractionBox[
-      RowBox[{"b", " ", "q"}], "l"]}], "}"}], ",", "q", ",", "z"}], 
-  "]"}]], "Output",
- CellChangeTimes->{{3.898703506948354*^9, 3.898703521422531*^9}},
- CellLabel->"Out[61]=",
- CellID->31823791,ExpressionUUID->"2eedd7ad-79af-4497-b511-1f281eba274b"]
-}, Open  ]],
-
-Cell[BoxData[
- RowBox[{"ClearAll", "[", 
-  RowBox[{"f", ",", "a"}], "]"}]], "Input",
- CellChangeTimes->{{3.898703516504531*^9, 3.8987035188366313`*^9}},
- CellLabel->"In[60]:=",
- CellID->280019116,ExpressionUUID->"d4f62de1-d129-4866-8c04-9a8d7e7c17af"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"SameQ", "[", 
-  RowBox[{
-   RowBox[{"VeryWellPoisedBasicHypergeometricSeries", "[", 
-    RowBox[{
-    "b", ",", "a", ",", "c", ",", "d", ",", "e", ",", "f", ",", "g", ",", "h",
-      ",", "i", ",", "j", ",", "k", ",", "l", ",", "q", ",", "z"}], "]"}], 
-   ",", 
-   RowBox[{"QHypergeometricPFQ", "[", 
-    RowBox[{
-     RowBox[{"{", 
-      RowBox[{
-      "a", ",", "b", ",", "c", ",", "d", ",", "e", ",", "f", ",", "g", ",", 
-       "h", ",", "i", ",", "j", ",", "k", ",", "l"}], "}"}], ",", 
-     RowBox[{"{", 
-      RowBox[{
-       RowBox[{"q", " ", 
-        RowBox[{"b", "/", "a"}]}], ",", 
-       RowBox[{"q", " ", 
-        RowBox[{"b", "/", "c"}]}], ",", 
-       RowBox[{"q", " ", 
-        RowBox[{"b", "/", "d"}]}], ",", 
-       RowBox[{"q", " ", 
-        RowBox[{"b", "/", "e"}]}], ",", 
-       RowBox[{"q", " ", 
-        RowBox[{"b", "/", "f"}]}], ",", 
-       RowBox[{"q", " ", 
-        RowBox[{"b", "/", "g"}]}], ",", 
-       RowBox[{"q", " ", 
-        RowBox[{"b", "/", "h"}]}], ",", 
-       RowBox[{"q", " ", 
-        RowBox[{"b", "/", "i"}]}], ",", 
-       RowBox[{"q", " ", 
-        RowBox[{"b", "/", "j"}]}], ",", 
-       RowBox[{"q", " ", 
-        RowBox[{"b", "/", "k"}]}], ",", 
-       RowBox[{"q", " ", 
-        RowBox[{"b", "/", "l"}]}]}], "}"}], ",", "q", ",", "z"}], "]"}]}], 
-  "]"}]], "Input",
- CellChangeTimes->{{3.898703510403034*^9, 3.89870353183433*^9}},
- CellLabel->"In[63]:=",
- CellID->375381594,ExpressionUUID->"9f3d52a9-9264-4483-ad53-875d890aa265"],
-
-Cell[BoxData["False"], "Output",
- CellChangeTimes->{{3.898703523812639*^9, 3.898703532536458*^9}},
- CellLabel->"Out[63]=",
- CellID->912820506,ExpressionUUID->"be4281aa-de6a-4816-abb4-333746c5f41c"]
-}, Open  ]]
+    RowBox[{"p", ",", "q", ",", "r"}], "}"}], ",", "2"}], "]"}]], "Input",
+ TaggingRules->{},
+ CellChangeTimes->{{3.898704187510559*^9, 3.8987042363269634`*^9}},
+ CellTags->"DefaultContent",
+ CellLabel->"In[95]:=",
+ CellID->104591703,ExpressionUUID->"8d781508-3fb4-4df5-bd9f-3ff4be33af8d"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -5190,6 +5040,7 @@ Cell[TextData[{
        FrameBox[
         Cell[
          TextData[{
+          
           "Contributors to the Wolfram Language Paclet Repository can include \
 a list of disclosures with their paclet. These disclosures tell users how to \
 expect the paclet to interact with their environment.\n\nDisclosures should \
@@ -5796,6 +5647,7 @@ Cell[BoxData[
                    Cell[
                     
                     TextData[{
+                    
                     "Choose this option if your paclet directly does any of \
 the following:\n\[FilledSmallSquare] Executes Shell or RUN commands\n\
 \[FilledSmallSquare] Uses external evaluators via ", 

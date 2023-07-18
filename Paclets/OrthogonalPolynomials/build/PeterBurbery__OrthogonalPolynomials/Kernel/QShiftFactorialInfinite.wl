@@ -10,7 +10,7 @@ BeginPackage["PeterBurbery`OrthogonalPolynomials`"];
 
 (*Declare your public symbols here:*)
 
-PeterBurbery`OrthogonalPolynomials`QShiftFactorialInfinite;
+PeterBurbery`OrthogonalPolynomials`QShiftedFactorialInfinite;
 
 Begin["`Private`"];
 
@@ -22,7 +22,7 @@ Begin["`Private`"];
 
 (*Define your public and private symbols here:*)
 
-QShiftFactorialInfinite//ClearAll;
+QShiftedFactorialInfinite//ClearAll;
 
 (* ::Section::Closed:: *)
 

@@ -188,7 +188,7 @@
             "File"
             ->
             File[
-                "Kernel\\QShiftFactorialInfinite.wl"
+                "Kernel\\QShiftedFactorialInfinite.wl"
             ]
             ,
             "Hash"
