@@ -25,7 +25,7 @@ Begin["`Private`"];
 AlSalamChiharaQInversePolynomial // ClearAll
 
 AlSalamChiharaQInversePolynomial[n_, z_, a_, b_, q_] :=
-  FunctionExpand[q ^ (-Binomial[n, 2]) (-b) ^ n QShiftedFactorialFinite[
+  FunctionExpand[q ^ (-Binomial[n, 2]) (-b) ^ n PeterBurbery`OrthogonalPolynomials`QShiftedFactorialFinite[
     {1 / (a b)}, q, n] QHypergeometricPFQ[{q ^ (-n), z / a, 1 / (z a)}, {
     1 / (a b)}, q, q^n a / b]];
 
