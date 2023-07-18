@@ -26,8 +26,9 @@ PeterBurbery`OrthogonalPolynomials`AlSalamChiharaPolynomial // ClearAll;
 
 PeterBurbery`OrthogonalPolynomials`AlSalamChiharaPolynomial[n_, z_, a_,
      b_, q_] :=
-    FunctionExpand[a ^ (-n) QShiftedFactorialFinite[{a b}, q, n] QHypergeometricPFQ[
-        {q ^ (-n), a z, a / z}, {a b, 0}, q, q]];
+    FunctionExpand[a ^ (-n) PeterBurbery`OrthogonalPolynomials`QShiftedFactorialFinite[
+        {a, b}, q, n] QHypergeometricPFQ[{q ^ (-n), a z, a / z}, {a b, 0}, q,
+         q]]
 
 (* ::Section::Closed:: *)
 

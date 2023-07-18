@@ -24,6 +24,9 @@ Begin["`Private`"];
 
 ContinuousBigQInverseHermitePolynomial//ClearAll;
 
+ContinuousBigQInverseHermitePolynomial[n_, z_, a_, q_] := 
+ FunctionExpand[
+  a^(-n) QHypergeometricPFQ[{q^(-n), z/a, 1/(z a)}, {}, q, q^n a^2]]
 (* ::Section::Closed:: *)
 
 (*Package Footer*)

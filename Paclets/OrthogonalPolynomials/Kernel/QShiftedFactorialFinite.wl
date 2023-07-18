@@ -22,7 +22,10 @@ Begin["`Private`"];
 
 (*Define your public and private symbols here:*)
 
-QShiftedFactorialFinite//ClearAll;
+QShiftedFactorialFinite // ClearAll;
+
+QShiftedFactorialFinite[a_, q_, n_] :=
+    Product[QPochhammer[Part[a, i], q, n], {i, 1, Length[a]}];
 
 (* ::Section::Closed:: *)
 

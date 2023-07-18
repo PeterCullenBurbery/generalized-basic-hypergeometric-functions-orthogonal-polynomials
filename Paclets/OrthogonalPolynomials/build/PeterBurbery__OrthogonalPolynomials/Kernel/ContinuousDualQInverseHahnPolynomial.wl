@@ -10,7 +10,7 @@ BeginPackage["PeterBurbery`OrthogonalPolynomials`"];
 
 (*Declare your public symbols here:*)
 
-PeterBurbery`OrthogonalPolynomials`ContinuousBigQHermitePolynomial;
+PeterBurbery`OrthogonalPolynomials`ContinuousDualQInverseHahnPolynomial;
 
 Begin["`Private`"];
 
@@ -22,11 +22,7 @@ Begin["`Private`"];
 
 (*Define your public and private symbols here:*)
 
-ContinuousBigQHermitePolynomial//ClearAll;
-
-ContinuousBigQHermitePolynomial[n_, z_, a_, q_] := 
- a^(-n) QHypergeometricPFQ[{q^(-n), a z, a/z}, {0, 0}, q, q]; 
-
+ContinuousDualQInverseHahnPolynomial//ClearAll;
 
 (* ::Section::Closed:: *)
 

@@ -22,7 +22,11 @@ Begin["`Private`"];
 
 (*Define your public and private symbols here:*)
 
-ModifiedThetaFunction//ClearAll;
+ModifiedThetaFunction // ClearAll;
+
+ModifiedThetaFunction[a_, q_] :=
+    Product[QPochhammer[Part[a, i], q] QPochhammer[q / Part[a, i], q],
+         {i, 1, Length[a]}];
 
 (* ::Section::Closed:: *)
 
