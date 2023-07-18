@@ -25,7 +25,7 @@ Begin["`Private`"];
 (*Define your public and private symbols here:*)
 
 
-AlSalamChiharaQInversePolynomial//Clear
+AlSalamChiharaQInversePolynomial//ClearAll
 
 
 (* ::Section::Closed:: *)
